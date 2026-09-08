@@ -7,15 +7,6 @@
             "id": "debf0b88-e8d8-48b8-96e9-d8cdfd9e608b",
             "actions": [
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "8a305a0e-2c2c-41df-8ebf-b62356fea9e4",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Move",
                     "type": "Value",
                     "id": "ab2f2800-9835-4b6d-ae67-48bc64c7ba51",
@@ -23,13 +14,22 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "8a305a0e-2c2c-41df-8ebf-b62356fea9e4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "bca2df1b-2f60-4229-89ce-c91f7226bd3e",
-                    "path": "",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
